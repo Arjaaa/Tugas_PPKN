@@ -302,7 +302,7 @@
         </svg>
        </div><span class="font-display text-xl font-bold text-[#f7f4ed]">Jelajah Surabaya</span>
       </div>
-      <div class="hidden md:flex items-center gap-2"><a href="#beranda" class="nav-link">Beranda</a> <a href="#tentang" class="nav-link">Tentang</a> <a href="#kuliner" class="nav-link">Kuliner</a> <a href="#budaya" class="nav-link">Budaya</a> <a href="#wisata" class="nav-link">Wisata</a>
+      <div class="hidden md:flex items-center gap-2"><a href="#beranda" class="nav-link">Beranda</a> <a href="#tentang" class="nav-link">Tentang</a> <a href="#kuliner" class="nav-link">Kuliner</a> <a href="#suku-agama" class="nav-link">Suku & Agama</a><a href="#budaya" class="nav-link">Budaya</a> <a href="#wisata" class="nav-link">Wisata</a>
       </div><button id="mobile-menu-btn" class="md:hidden text-[#f7f4ed] p-2">
        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
        </svg></button>
@@ -414,288 +414,527 @@
        <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-4">Kota Pendidikan</h3>
        <p class="text-gray-600 leading-relaxed">Rumah bagi berbagai universitas ternama seperti ITS, UNAIR, dan UNESA yang menghasilkan lulusan berkualitas untuk pembangunan bangsa</p>
       </div>
-     </div><!-- Sura & Baya Legend -->
-     <div class="mt-16 bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-[#c9a227]/20">
-      <div class="grid md:grid-cols-2 gap-8 items-center">
-       <div>
-        <h3 class="font-display text-3xl font-bold text-[#1a365d] mb-6">Legenda Sura &amp; Baya</h3>
-        <p class="text-gray-600 leading-relaxed mb-4">Nama Surabaya berasal dari legenda pertarungan antara <strong>Sura</strong> (ikan hiu) dan <strong>Baya</strong> (buaya) yang bertempur memperebutkan wilayah kekuasaan.</p>
-        <p class="text-gray-600 leading-relaxed">Legenda ini melambangkan semangat juang yang pantang menyerah, yang kemudian menjadi karakter khas masyarakat Surabaya yang dikenal dengan sebutan <em>"Arek Suroboyo"</em>.</p>
-       </div>
-       <div class="flex justify-center">
-        <svg viewbox="0 0 300 200" class="w-full max-w-md"><!-- Water Background --> <ellipse cx="150" cy="160" rx="130" ry="30" fill="#1a365d" opacity="0.2" /> <!-- Sura (Shark) --> <g transform="translate(30, 60)">
-          <path d="M0 40 Q20 20 60 30 L80 20 L75 35 L100 40 L75 45 L80 60 L60 50 Q20 60 0 40" fill="#1a365d" />
-          <circle cx="25" cy="38" r="4" fill="white" />
-          <circle cx="27" cy="38" r="2" fill="#1a365d" />
-          <path d="M50 25 L55 10 L60 25" fill="#1a365d" />
-         </g> <!-- VS Text --> <text x="150" y="90" text-anchor="middle" fill="#c9a227" font-family="Playfair Display" font-size="24" font-weight="bold">
-          VS
-         </text> <!-- Baya (Crocodile) --> <g transform="translate(170, 70)">
-          <path d="M0 30 L30 20 L60 25 L90 30 L100 35 L90 40 L60 45 L30 40 L0 30" fill="#2d5016" />
-          <path d="M0 30 L-20 25 L-15 30 L-20 35 L0 30" fill="#2d5016" />
-          <circle cx="20" cy="28" r="4" fill="white" />
-          <circle cx="22" cy="28" r="2" fill="#2d5016" /> <!-- Scales -->
-          <path d="M40 30 L45 25 L50 30 L55 25 L60 30 L65 25 L70 30" stroke="#1a3a0d" fill="none" stroke-width="2" />
-         </g> <!-- Water Splash --> <g opacity="0.5">
-          <circle cx="100" cy="120" r="5" fill="#1a365d" />
-          <circle cx="120" cy="130" r="3" fill="#1a365d" />
-          <circle cx="180" cy="125" r="4" fill="#1a365d" />
-          <circle cx="200" cy="135" r="3" fill="#1a365d" />
-         </g>
-        </svg>
-       </div>
       </div>
-     </div>
+<!-- Sura & Baya Legend -->
+<div class="mt-16 bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-[#c9a227]/20">
+
+  <div class="flex flex-col md:flex-row items-center gap-10">
+
+    <!-- Text -->
+    <div class="flex-1">
+      <h3 class="font-display text-3xl font-bold text-[#1a365d] mb-6">
+        Legenda Sura & Baya
+      </h3>
+
+      <p class="text-gray-600 leading-relaxed mb-4">
+        Nama Surabaya berasal dari legenda pertarungan antara 
+        <strong>Sura</strong> (ikan hiu) dan 
+        <strong>Baya</strong> (buaya) yang bertempur memperebutkan wilayah kekuasaan.
+      </p>
+
+      <p class="text-gray-600 leading-relaxed">
+        Legenda ini melambangkan semangat juang yang pantang menyerah, 
+        yang kemudian menjadi karakter khas masyarakat Surabaya yang dikenal 
+        dengan sebutan <em>"Arek Suroboyo"</em>.
+      </p>
     </div>
+
+    <!-- Image -->
+<div class="flex-1 flex justify-center items-center">
+  <img 
+    src="https://discoveringsurabaya.wordpress.com/wp-content/uploads/2015/09/landmark1.jpg"
+    alt="Patung Sura dan Baya Surabaya"
+    class="w-[420px] rounded-[40px] shadow-2xl transition duration-500 hover:rotate-0"
+  >
+</div>
+
+  </div>
+
+</div>
    </section><!-- Batik Divider -->
    <div class="batik-divider"></div><!-- Culinary Section -->
-   <section id="kuliner" class="py-20 bg-gradient-to-b from-[#f7f4ed] to-white">
+   <section id="kuliner" class="py-20 bg-[#f7f4ed]">
     <div class="max-w-6xl mx-auto px-4">
      <div class="text-center mb-16"><span class="text-[#c9a227] font-semibold uppercase tracking-wider">Kuliner Khas</span>
       <h2 class="font-display text-4xl md:text-5xl font-bold text-[#1a365d] mt-4 mb-6">Cita Rasa Surabaya</h2>
       <div class="w-24 h-1 bg-gradient-to-r from-transparent via-[#c9a227] to-transparent mx-auto"></div>
      </div>
-     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"><!-- Rawon -->
-      <div class="food-card">
-       <div class="food-image bg-gradient-to-br from-[#1a1a1a] to-[#3d3d3d]"><span class="text-6xl">🍜</span>
-       </div>
-       <div class="p-6">
-        <div class="flex items-center gap-2 mb-2"><span class="px-3 py-1 bg-[#c9a227]/20 text-[#c9a227] text-sm rounded-full font-medium">Signature</span>
-        </div>
-        <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">Rawon</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Sup daging berwarna hitam pekat dengan kuah gurih dari kluwek. Disajikan dengan tauge, telur asin, dan sambal.</p>
-        <div class="mt-4 flex items-center text-[#2d5016]"><span class="text-sm font-medium">Rp 25.000 - 45.000</span>
-        </div>
-       </div>
-      </div><!-- Rujak Cingur -->
-      <div class="food-card">
-       <div class="food-image bg-gradient-to-br from-[#c9a227] to-[#8B6914]"><span class="text-6xl">🥗</span>
-       </div>
-       <div class="p-6">
-        <div class="flex items-center gap-2 mb-2"><span class="px-3 py-1 bg-[#2d5016]/20 text-[#2d5016] text-sm rounded-full font-medium">Traditional</span>
-        </div>
-        <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">Rujak Cingur</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Salad tradisional dengan campuran sayuran, buah-buahan, lontong, tahu, dan cingur (mulut sapi) dengan bumbu petis.</p>
-        <div class="mt-4 flex items-center text-[#2d5016]"><span class="text-sm font-medium">Rp 20.000 - 35.000</span>
-        </div>
-       </div>
-      </div><!-- Lontong Balap -->
-      <div class="food-card">
-       <div class="food-image bg-gradient-to-br from-[#2d5016] to-[#1a3a0d]"><span class="text-6xl">🍲</span>
-       </div>
-       <div class="p-6">
-        <div class="flex items-center gap-2 mb-2"><span class="px-3 py-1 bg-[#1a365d]/20 text-[#1a365d] text-sm rounded-full font-medium">Street Food</span>
-        </div>
-        <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">Lontong Balap</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Lontong dengan kuah kaldu gurih, tauge, tahu goreng, lentho, dan kecap manis. Makanan legendaris Surabaya.</p>
-        <div class="mt-4 flex items-center text-[#2d5016]"><span class="text-sm font-medium">Rp 15.000 - 25.000</span>
-        </div>
-       </div>
-      </div><!-- Sate Klopo -->
-      <div class="food-card">
-       <div class="food-image bg-gradient-to-br from-[#8B4513] to-[#5D2E0C]"><span class="text-6xl">🍢</span>
-       </div>
-       <div class="p-6">
-        <div class="flex items-center gap-2 mb-2"><span class="px-3 py-1 bg-[#c9a227]/20 text-[#c9a227] text-sm rounded-full font-medium">Grilled</span>
-        </div>
-        <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">Sate Klopo</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Sate daging sapi dengan taburan kelapa parut yang gurih dan harum. Disajikan dengan lontong dan bumbu kacang.</p>
-        <div class="mt-4 flex items-center text-[#2d5016]"><span class="text-sm font-medium">Rp 30.000 - 50.000</span>
-        </div>
-       </div>
-      </div><!-- Tahu Tek -->
-      <div class="food-card">
-       <div class="food-image bg-gradient-to-br from-[#D2691E] to-[#8B4513]"><span class="text-6xl">🥡</span>
-       </div>
-       <div class="p-6">
-        <div class="flex items-center gap-2 mb-2"><span class="px-3 py-1 bg-[#2d5016]/20 text-[#2d5016] text-sm rounded-full font-medium">Vegetarian</span>
-        </div>
-        <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">Tahu Tek</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Tahu goreng dengan lontong dan tauge, disiram bumbu kacang kental yang khas. Cocok untuk vegetarian.</p>
-        <div class="mt-4 flex items-center text-[#2d5016]"><span class="text-sm font-medium">Rp 12.000 - 20.000</span>
-        </div>
-       </div>
-      </div><!-- Semanggi -->
-      <div class="food-card">
-       <div class="food-image bg-gradient-to-br from-[#228B22] to-[#006400]"><span class="text-6xl">🌿</span>
-       </div>
-       <div class="p-6">
-        <div class="flex items-center gap-2 mb-2"><span class="px-3 py-1 bg-[#1a365d]/20 text-[#1a365d] text-sm rounded-full font-medium">Heritage</span>
-        </div>
-        <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">Semanggi</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Daun semanggi yang direbus dan disajikan dengan bumbu petis khas. Makanan langka warisan budaya Surabaya.</p>
-        <div class="mt-4 flex items-center text-[#2d5016]"><span class="text-sm font-medium">Rp 10.000 - 15.000</span>
-        </div>
-       </div>
-      </div>
-     </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+  <!-- Rawon -->
+  <div class="food-card flex flex-col h-full bg-white rounded-2xl shadow-md overflow-hidden">
+    
+    <div class="food-image h-40">
+      <img src="images/rawon.png" alt="Rawon" class="w-full h-full object-cover">
     </div>
-   </section><!-- Culture Section -->
-   <section id="budaya" class="py-20 bg-[#1a365d]">
+
+    <div class="p-6 flex flex-col flex-grow">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="px-3 py-1 bg-[#c9a227]/20 text-[#c9a227] text-sm rounded-full font-medium">
+          Signature
+        </span>
+      </div>
+
+      <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+        Rawon
+      </h3>
+
+      <p class="text-gray-600 text-sm leading-relaxed flex-grow">
+        Sup daging berwarna hitam pekat dengan kuah gurih dari kluwek. Disajikan dengan tauge, telur asin, dan sambal.
+      </p>
+    </div>
+  </div>
+
+  <!-- Rujak Cingur -->
+  <div class="food-card flex flex-col h-full bg-white rounded-2xl shadow-md overflow-hidden">
+    
+    <div class="food-image h-40">
+      <img src="images/rujak.png" alt="Rujak Cingur" class="w-full h-full object-cover">
+    </div>
+
+    <div class="p-6 flex flex-col flex-grow">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="px-3 py-1 bg-[#2d5016]/20 text-[#2d5016] text-sm rounded-full font-medium">
+          Traditional
+        </span>
+      </div>
+
+      <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+        Rujak Cingur
+      </h3>
+
+      <p class="text-gray-600 text-sm leading-relaxed flex-grow">
+        Salad tradisional dengan campuran sayuran, buah-buahan, lontong, tahu, dan cingur (mulut sapi) dengan bumbu petis.
+      </p>
+    </div>
+  </div>
+
+  <!-- Lontong Balap -->
+  <div class="food-card flex flex-col h-full bg-white rounded-2xl shadow-md overflow-hidden">
+    
+    <div class="food-image h-40">
+      <img src="images/lontong.png" alt="Sate Klopo" class="w-full h-full object-cover">
+    </div>
+
+    <div class="p-6 flex flex-col flex-grow">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="px-3 py-1 bg-[#1a365d]/20 text-[#1a365d] text-sm rounded-full font-medium">
+          Street Food
+        </span>
+      </div>
+
+      <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+        Lontong Balap
+      </h3>
+
+      <p class="text-gray-600 text-sm leading-relaxed flex-grow">
+        Lontong dengan kuah kaldu gurih, tauge, tahu goreng, lentho, dan kecap manis. Makanan legendaris Surabaya.
+      </p>
+    </div>
+  </div>
+  <!-- Sate Klopo -->
+  <div class="food-card flex flex-col h-full bg-white rounded-2xl shadow-md overflow-hidden">
+    
+    <div class="food-image h-40">
+      <img src="images/sate.png" alt="Lontong Balap" class="w-full h-full object-cover">
+    </div>
+
+    <div class="p-6 flex flex-col flex-grow">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="px-3 py-1 bg-[#c9a227]/20 text-[#c9a227] text-sm rounded-full font-medium">
+          Grilled
+        </span>
+      </div>
+
+      <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+        Sate Klopo
+      </h3>
+
+      <p class="text-gray-600 text-sm leading-relaxed flex-grow">
+        Sate daging sapi dengan taburan kelapa parut yang gurih dan harum. Disajikan dengan lontong dan bumbu kacang.
+      </p>
+    </div>
+  </div>
+  <!-- Tahu Tek -->
+  <div class="food-card flex flex-col h-full bg-white rounded-2xl shadow-md overflow-hidden">
+    
+    <div class="food-image h-40">
+      <img src="images/tahu.png" alt="Tahu Tek" class="w-full h-full object-cover">
+    </div>
+
+    <div class="p-6 flex flex-col flex-grow">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="px-3 py-1 bg-[#2d5016]/20 text-[#2d5016] text-sm rounded-full font-medium">
+          Vegetarian
+        </span>
+      </div>
+
+      <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+        Tahu Tek
+      </h3>
+
+      <p class="text-gray-600 text-sm leading-relaxed flex-grow">
+        Tahu goreng dengan lontong dan tauge, disiram bumbu kacang kental yang khas. Cocok untuk vegetarian.
+      </p>
+    </div>
+  </div>
+    <!-- Semanggi -->
+  <div class="food-card flex flex-col h-full bg-white rounded-2xl shadow-md overflow-hidden">
+    
+    <div class="food-image h-40">
+      <img src="images/semanggi.png" alt="Semanggi" class="w-full h-full object-cover">
+    </div>
+
+    <div class="p-6 flex flex-col flex-grow">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="px-3 py-1 bg-[#1a365d]/20 text-[#1a365d] text-sm rounded-full font-medium">
+          Heritage
+        </span>
+      </div>
+
+      <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+        Semanggi
+      </h3>
+
+      <p class="text-gray-600 text-sm leading-relaxed flex-grow">
+        Daun semanggi yang direbus dan disajikan dengan bumbu petis khas. Makanan langka warisan budaya Surabaya.
+      </p>
+    </div>
+  </div>
+
+</div>
+   </section><!-- Batik Divider -->
+   <div class="batik-divider"></div><!-- Religion Section -->
+   <section id="suku-agama" class="py-20 bg-[#f7f4ed] ">
     <div class="max-w-6xl mx-auto px-4">
-     <div class="text-center mb-16"><span class="text-[#c9a227] font-semibold uppercase tracking-wider">Adat &amp; Budaya</span>
-      <h2 class="font-display text-4xl md:text-5xl font-bold text-[#f7f4ed] mt-4 mb-6">Warisan Leluhur</h2>
+     <div class="text-center mb-16"><span class="text-[#c9a227] font-semibold uppercase tracking-wider">Keberagaman</span>
+      <h2 class="font-display text-4xl md:text-5xl font-bold text-[#1a365d] mt-4 mb-6">Suku & Agama di Surabaya</h2>
       <div class="w-24 h-1 bg-gradient-to-r from-transparent via-[#c9a227] to-transparent mx-auto"></div>
      </div>
-     <div class="grid md:grid-cols-2 gap-8">
-      <div class="culture-card">
-       <div class="flex items-start gap-4">
-        <div class="w-16 h-16 bg-[#c9a227] rounded-xl flex items-center justify-center flex-shrink-0"><span class="text-3xl">🎭</span>
-        </div>
-        <div>
-         <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Ludruk</h3>
-         <p class="text-gray-600 leading-relaxed">Seni pertunjukan teater rakyat khas Jawa Timur yang menampilkan drama komedi dengan dialog berbahasa Jawa Surabayan. Biasanya diiringi musik gamelan.</p>
-        </div>
-       </div>
-      </div>
-      <div class="culture-card">
-       <div class="flex items-start gap-4">
-        <div class="w-16 h-16 bg-[#c9a227] rounded-xl flex items-center justify-center flex-shrink-0"><span class="text-3xl">💃</span>
-        </div>
-        <div>
-         <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Tari Remo</h3>
-         <p class="text-gray-600 leading-relaxed">Tarian tradisional yang menggambarkan jiwa heroik dan kepahlawanan. Penari mengenakan pakaian adat Jawa Timur dengan gerakan dinamis penuh semangat.</p>
-        </div>
-       </div>
-      </div>
-      <div class="culture-card">
-       <div class="flex items-start gap-4">
-        <div class="w-16 h-16 bg-[#c9a227] rounded-xl flex items-center justify-center flex-shrink-0"><span class="text-3xl">🎪</span>
-        </div>
-        <div>
-         <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Festival Rujak Uleg</h3>
-         <p class="text-gray-600 leading-relaxed">Festival tahunan yang memperingati hari jadi Kota Surabaya dengan parade budaya, pembuatan rujak uleg raksasa, dan berbagai pertunjukan seni.</p>
-        </div>
-       </div>
-      </div>
-      <div class="culture-card">
-       <div class="flex items-start gap-4">
-        <div class="w-16 h-16 bg-[#c9a227] rounded-xl flex items-center justify-center flex-shrink-0"><span class="text-3xl">🗣️</span>
-        </div>
-        <div>
-         <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Bahasa Suroboyoan</h3>
-         <p class="text-gray-600 leading-relaxed">Dialek khas dengan logat tegas dan lugas. Kata-kata seperti "cak/rek" (sapaan) dan "jancuk" (ekspresi emosi) menjadi ciri khas komunikasi warga.</p>
-        </div>
-       </div>
-      </div>
-      <div class="culture-card">
-       <div class="flex items-start gap-4">
-        <div class="w-16 h-16 bg-[#c9a227] rounded-xl flex items-center justify-center flex-shrink-0"><span class="text-3xl">🎶</span>
-        </div>
-        <div>
-         <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Kidungan</h3>
-         <p class="text-gray-600 leading-relaxed">Seni berpantun atau bersyair dalam bahasa Jawa yang dilantunkan dengan irama khas. Biasanya ditampilkan dalam acara-acara adat dan pertunjukan ludruk.</p>
-        </div>
-       </div>
-      </div>
-      <div class="culture-card">
-       <div class="flex items-start gap-4">
-        <div class="w-16 h-16 bg-[#c9a227] rounded-xl flex items-center justify-center flex-shrink-0"><span class="text-3xl">🏮</span>
-        </div>
-        <div>
-         <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Perayaan Cap Go Meh</h3>
-         <p class="text-gray-600 leading-relaxed">Perayaan budaya Tionghoa yang meriah di kawasan Kya-Kya Kembang Jepun dengan lampion, barongsai, dan kuliner khas peranakan.</p>
-        </div>
-       </div>
-      </div>
-     </div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+  <!-- Suku Jawa -->
+  <div class="bg-[#f7f4ed] rounded-2xl p-6 shadow-md">
+    <div class="mb-4">
+      <img src="images/suku-jawa.png" alt="Suku Jawa" class="w-full h-40 object-cover rounded-lg">
     </div>
-   </section><!-- Tourism Section -->
-   <section id="wisata" class="py-20 bg-[#f7f4ed]">
-    <div class="max-w-6xl mx-auto px-4">
-     <div class="text-center mb-16"><span class="text-[#c9a227] font-semibold uppercase tracking-wider">Destinasi Wisata</span>
-      <h2 class="font-display text-4xl md:text-5xl font-bold text-[#1a365d] mt-4 mb-6">Tempat Ikonik</h2>
+    <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+      Suku Jawa
+    </h3>
+    <p class="text-gray-600 text-sm leading-relaxed">
+      Suku mayoritas di Surabaya. Memiliki budaya khas seperti bahasa Jawa, tradisi gotong royong, dan kuliner tradisional.
+    </p>
+  </div>
+
+  <!-- Suku Madura -->
+  <div class="bg-[#f7f4ed] rounded-2xl p-6 shadow-md">
+    <div class="mb-4">
+      <img src="images/suku-madura.png" alt="Suku Madura" class="w-full h-40 object-cover rounded-lg">
+    </div>
+    <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+      Suku Madura
+    </h3>
+    <p class="text-gray-600 text-sm leading-relaxed">
+      Banyak bermigrasi ke Surabaya. Dikenal dengan karakter pekerja keras dan budaya khas seperti karapan sapi.
+    </p>
+  </div>
+
+  <!-- Suku Tionghoa -->
+  <div class="bg-[#f7f4ed] rounded-2xl p-6 shadow-md">
+    <div class="mb-4">
+      <img src="images/suku-tionghoa.png" alt="Suku Tionghoa" class="w-full h-40 object-cover rounded-lg">
+    </div>
+    <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+      Suku Tionghoa
+    </h3>
+    <p class="text-gray-600 text-sm leading-relaxed">
+      Berperan penting dalam ekonomi dan budaya kota, dengan tradisi seperti Imlek dan kuliner khas Tionghoa.
+    </p>
+  </div>
+
+  <!-- Islam -->
+  <div class="bg-white border rounded-2xl p-6 shadow-md">
+    <div class="mb-4">
+      <img src="images/masjid.png" alt="Islam" class="w-full h-40 object-cover rounded-lg">
+    </div>
+    <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+      Islam
+    </h3>
+    <p class="text-gray-600 text-sm leading-relaxed">
+      Agama mayoritas di Surabaya. Banyak masjid dan kegiatan keagamaan aktif di berbagai wilayah kota.
+    </p>
+  </div>
+
+  <!-- Kristen -->
+  <div class="bg-white border rounded-2xl p-6 shadow-md">
+    <div class="mb-4">
+      <img src="images/gereja.png" alt="Kristen" class="w-full h-40 object-cover rounded-lg">
+    </div>
+    <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+      Kristen & Katolik
+    </h3>
+    <p class="text-gray-600 text-sm leading-relaxed">
+      Memiliki komunitas yang cukup besar dengan gereja-gereja bersejarah di Surabaya.
+    </p>
+  </div>
+
+  <!-- Agama Lain -->
+  <div class="bg-white border rounded-2xl p-6 shadow-md">
+    <div class="mb-4">
+      <img src="images/hbk.png" alt="Agama Lain" class="w-full h-40 object-cover rounded-lg">
+    </div>
+    <h3 class="font-display text-2xl font-bold text-[#1a365d] mb-3">
+      Hindu, Buddha & Konghucu
+    </h3>
+    <p class="text-gray-600 text-sm leading-relaxed">
+      Meskipun minoritas, tetap menjadi bagian penting dari keberagaman dan toleransi di Surabaya.
+    </p>
+  </div>
+
+</div>
+
+  </section>
+
+<!-- Culture Section -->
+<section id="budaya" class="py-20 bg-[#1a365d]">
+  <div class="max-w-6xl mx-auto px-4">
+
+    <!-- Header -->
+    <div class="text-center mb-16">
+      <span class="text-[#c9a227] font-semibold uppercase tracking-wider">
+        Adat & Budaya
+      </span>
+      <h2 class="font-display text-4xl md:text-5xl font-bold text-[#f7f4ed] mt-4 mb-6">
+        Warisan Leluhur
+      </h2>
       <div class="w-24 h-1 bg-gradient-to-r from-transparent via-[#c9a227] to-transparent mx-auto"></div>
-     </div>
-     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"><!-- Tugu Pahlawan -->
-      <div class="info-card overflow-hidden group">
-       <div class="h-48 bg-gradient-to-br from-[#1a365d] to-[#2d4a7c] flex items-center justify-center relative overflow-hidden">
-        <div class="landmark-icon group-hover:scale-110 transition-transform">
-         <svg viewbox="0 0 24 24" class="w-10 h-10 text-[#c9a227]" fill="currentColor"><path d="M12 2L8 8V22H16V8L12 2ZM12 5L14 8V20H10V8L12 5Z" />
-         </svg>
-        </div>
-       </div>
-       <div class="p-6">
-        <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Tugu Pahlawan</h3>
-        <p class="text-gray-600 text-sm mb-4">Monumen setinggi 41.15 meter yang menjadi simbol kepahlawanan arek Surabaya dalam pertempuran 10 November 1945.</p>
-        <div class="flex items-center text-sm text-[#2d5016]">
-         <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-         </svg> Jl. Pahlawan, Alun-alun Contong
-        </div>
-       </div>
-      </div><!-- House of Sampoerna -->
-      <div class="info-card overflow-hidden group">
-       <div class="h-48 bg-gradient-to-br from-[#8B4513] to-[#A0522D] flex items-center justify-center relative overflow-hidden">
-        <div class="landmark-icon group-hover:scale-110 transition-transform"><span class="text-4xl">🏛️</span>
-        </div>
-       </div>
-       <div class="p-6">
-        <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">House of Sampoerna</h3>
-        <p class="text-gray-600 text-sm mb-4">Museum sejarah dalam bangunan kolonial Belanda yang menampilkan perjalanan industri rokok kretek di Indonesia.</p>
-        <div class="flex items-center text-sm text-[#2d5016]">
-         <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-         </svg> Taman Sampoerna, Krembangan
-        </div>
-       </div>
-      </div><!-- Submarine Monument -->
-      <div class="info-card overflow-hidden group">
-       <div class="h-48 bg-gradient-to-br from-[#2d5016] to-[#4a7c2a] flex items-center justify-center relative overflow-hidden">
-        <div class="landmark-icon group-hover:scale-110 transition-transform"><span class="text-4xl">🚢</span>
-        </div>
-       </div>
-       <div class="p-6">
-        <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Monumen Kapal Selam</h3>
-        <p class="text-gray-600 text-sm mb-4">Museum di dalam kapal selam KRI Pasopati 410 asli, menawarkan pengalaman unik menjelajahi interior kapal selam.</p>
-        <div class="flex items-center text-sm text-[#2d5016]">
-         <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-         </svg> Jl. Pemuda, Embong Kaliasin
-        </div>
-       </div>
-      </div><!-- Surabaya Zoo -->
-      <div class="info-card overflow-hidden group">
-       <div class="h-48 bg-gradient-to-br from-[#228B22] to-[#32CD32] flex items-center justify-center relative overflow-hidden">
-        <div class="landmark-icon group-hover:scale-110 transition-transform"><span class="text-4xl">🦁</span>
-        </div>
-       </div>
-       <div class="p-6">
-        <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Kebun Binatang Surabaya</h3>
-        <p class="text-gray-600 text-sm mb-4">Salah satu kebun binatang tertua di Asia Tenggara dengan koleksi satwa dari berbagai belahan dunia.</p>
-        <div class="flex items-center text-sm text-[#2d5016]">
-         <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-         </svg> Jl. Setail No. 1, Darmo
-        </div>
-       </div>
-      </div><!-- Jembatan Suramadu -->
-      <div class="info-card overflow-hidden group">
-       <div class="h-48 bg-gradient-to-br from-[#4169E1] to-[#1E90FF] flex items-center justify-center relative overflow-hidden">
-        <div class="landmark-icon group-hover:scale-110 transition-transform"><span class="text-4xl">🌉</span>
-        </div>
-       </div>
-       <div class="p-6">
-        <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Jembatan Suramadu</h3>
-        <p class="text-gray-600 text-sm mb-4">Jembatan terpanjang di Indonesia (5.4 km) yang menghubungkan Surabaya dengan Pulau Madura dengan pemandangan spektakuler.</p>
-        <div class="flex items-center text-sm text-[#2d5016]">
-         <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-         </svg> Selat Madura
-        </div>
-       </div>
-      </div><!-- Masjid Al Akbar -->
-      <div class="info-card overflow-hidden group">
-       <div class="h-48 bg-gradient-to-br from-[#c9a227] to-[#DAA520] flex items-center justify-center relative overflow-hidden">
-        <div class="landmark-icon group-hover:scale-110 transition-transform"><span class="text-4xl">🕌</span>
-        </div>
-       </div>
-       <div class="p-6">
-        <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Masjid Al-Akbar</h3>
-        <p class="text-gray-600 text-sm mb-4">Masjid terbesar kedua di Indonesia dengan arsitektur megah dan menara setinggi 99 meter yang bisa dinaiki pengunjung.</p>
-        <div class="flex items-center text-sm text-[#2d5016]">
-         <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-         </svg> Jl. Masjid Al-Akbar Timur, Pagesangan
-        </div>
-       </div>
-      </div>
-     </div>
     </div>
+
+    <!-- Grid -->
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- Ludruk -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-md group">
+        <div class="h-48 overflow-hidden">
+          <img src="images/ludruk.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Ludruk</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Seni pertunjukan teater rakyat khas Jawa Timur yang menampilkan drama komedi dengan dialog berbahasa Jawa Surabayan. Biasanya diiringi musik gamelan.
+          </p>
+        </div>
+      </div>
+
+      <!-- Tari Remo -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-md group">
+        <div class="h-48 overflow-hidden">
+          <img src="images/remo.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Tari Remo</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Tarian tradisional yang menggambarkan jiwa heroik dan kepahlawanan. Penari mengenakan pakaian adat Jawa Timur dengan gerakan dinamis penuh semangat.
+          </p>
+        </div>
+      </div>
+
+      <!-- Festival Rujak Uleg -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-md group">
+        <div class="h-48 overflow-hidden">
+          <img src="images/uleg.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Festival Rujak Uleg</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Festival tahunan yang memperingati hari jadi Kota Surabaya dengan parade budaya, pembuatan rujak uleg raksasa, dan berbagai pertunjukan seni.
+          </p>
+        </div>
+      </div>
+
+      <!-- Bahasa Suroboyoan -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-md group">
+        <div class="h-48 overflow-hidden">
+          <img src="images/suroboyo.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Bahasa Suroboyoan</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Dialek khas dengan logat tegas dan lugas. Kata-kata seperti "cak/rek" dan "jancuk" menjadi ciri khas komunikasi warga.
+          </p>
+        </div>
+      </div>
+
+      <!-- Kidungan -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-md group">
+        <div class="h-48 overflow-hidden">
+          <img src="images/kidungan.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Kidungan</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Seni berpantun atau bersyair dalam bahasa Jawa yang dilantunkan dengan irama khas. Biasanya ditampilkan dalam acara adat dan ludruk.
+          </p>
+        </div>
+      </div>
+
+      <!-- Cap Go Meh -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-md group">
+        <div class="h-48 overflow-hidden">
+          <img src="images/meh.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Perayaan Cap Go Meh</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Perayaan budaya Tionghoa yang meriah di Kya-Kya Kembang Jepun dengan lampion, barongsai, dan kuliner khas.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Tourism Section -->
+<section id="wisata" class="py-20 bg-[#f7f4ed]">
+  <div class="max-w-6xl mx-auto px-4">
+
+    <!-- Header -->
+    <div class="text-center mb-16">
+      <span class="text-[#c9a227] font-semibold uppercase tracking-wider">
+        Destinasi Wisata
+      </span>
+      <h2 class="font-display text-4xl md:text-5xl font-bold text-[#1a365d] mt-4 mb-6">
+        Tempat Ikonik
+      </h2>
+      <div class="w-24 h-1 bg-gradient-to-r from-transparent via-[#c9a227] to-transparent mx-auto"></div>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Tugu Pahlawan -->
+      <div class="info-card overflow-hidden group bg-white rounded-2xl shadow-md">
+        <div class="h-48 relative overflow-hidden">
+          <img src="images/tugu.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition"></div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Tugu Pahlawan</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Monumen setinggi 41.15 meter yang menjadi simbol kepahlawanan arek Surabaya dalam pertempuran 10 November 1945.
+          </p>
+          <div class="flex items-center text-sm text-[#2d5016]">
+            <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+            </svg>
+            Jl. Pahlawan, Alun-alun Contong
+          </div>
+        </div>
+      </div>
+
+      <!-- House of Sampoerna -->
+      <div class="info-card overflow-hidden group bg-white rounded-2xl shadow-md">
+        <div class="h-48 relative overflow-hidden">
+          <img src="images/sampoerna.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition"></div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">House of Sampoerna</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Museum sejarah dalam bangunan kolonial Belanda yang menampilkan perjalanan industri rokok kretek di Indonesia.
+          </p>
+          <div class="flex items-center text-sm text-[#2d5016]">
+            <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+            </svg>
+            Taman Sampoerna, Krembangan
+          </div>
+        </div>
+      </div>
+
+      <!-- Monumen Kapal Selam -->
+      <div class="info-card overflow-hidden group bg-white rounded-2xl shadow-md">
+        <div class="h-48 relative overflow-hidden">
+          <img src="images/kapal.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition"></div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Monumen Kapal Selam</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Museum di dalam kapal selam KRI Pasopati 410 asli, menawarkan pengalaman unik menjelajahi interior kapal selam.
+          </p>
+          <div class="flex items-center text-sm text-[#2d5016]">
+            <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+            </svg>
+            Jl. Pemuda, Embong Kaliasin
+          </div>
+        </div>
+      </div>
+
+      <!-- Kebun Binatang -->
+      <div class="info-card overflow-hidden group bg-white rounded-2xl shadow-md">
+        <div class="h-48 relative overflow-hidden">
+          <img src="images/kebun.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition"></div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Kebun Binatang Surabaya</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Salah satu kebun binatang tertua di Asia Tenggara dengan koleksi satwa dari berbagai belahan dunia.
+          </p>
+          <div class="flex items-center text-sm text-[#2d5016]">
+            <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+            </svg>
+            Jl. Setail No. 1, Darmo
+          </div>
+        </div>
+      </div>
+
+      <!-- Suramadu -->
+      <div class="info-card overflow-hidden group bg-white rounded-2xl shadow-md">
+        <div class="h-48 relative overflow-hidden">
+          <img src="images/suramadu.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition"></div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Jembatan Suramadu</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Jembatan terpanjang di Indonesia (5.4 km) yang menghubungkan Surabaya dengan Pulau Madura.
+          </p>
+          <div class="flex items-center text-sm text-[#2d5016]">
+            <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+            </svg>
+            Selat Madura
+          </div>
+        </div>
+      </div>
+
+      <!-- Masjid Al-Akbar -->
+      <div class="info-card overflow-hidden group bg-white rounded-2xl shadow-md">
+        <div class="h-48 relative overflow-hidden">
+          <img src="images/masjid.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition"></div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl font-bold text-[#1a365d] mb-2">Masjid Al-Akbar</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Masjid terbesar kedua di Indonesia dengan arsitektur megah dan menara setinggi 99 meter.
+          </p>
+          <div class="flex items-center text-sm text-[#2d5016]">
+            <svg class="w-4 h-4 mr-1" fill="currentColor" viewbox="0 0 24 24">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+            </svg>
+            Jl. Masjid Al-Akbar Timur, Pagesangan
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
    </section><!-- Call to Action -->
    <section class="py-20 bg-gradient-to-r from-[#1a365d] via-[#2d4a7c] to-[#1a365d] relative overflow-hidden">
     <div class="absolute inset-0 opacity-10">
